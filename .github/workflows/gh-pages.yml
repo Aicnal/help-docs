@@ -25,6 +25,9 @@ jobs:
 
       # Step 4: 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+        run: |
+          echo "help.duckk.org" > site/CNAME
+          mkdocs gh-deploy --force
+        
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

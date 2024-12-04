@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# 欢迎来到鸭鸭的帮助文档
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> 这是个什么站点？
+>
+> 这个站点能干什么？
 
-## Commands
+## 这是个什么站点？
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+这是一个公共站点，用来收藏一些我经常接触，但是很容易忘记从而要反复查询的东西，本地的Obsidian虽然很方便，但终究不及 Web，因此我决定将这些东西分享出来，为我，也为你
 
-## Project layout
+## 这个站点能干什么？
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+你可以把它当作一个工具站使用，而我则会把它当作笔记写
+
+本文档遵循[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)，如果你想要进行转载的话，应当注明出处
