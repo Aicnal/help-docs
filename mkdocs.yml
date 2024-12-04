@@ -10,7 +10,7 @@ repo_url: https://github.com/Aicnal/help-docs
 
 nav:
   - 主页: index.md
-  - 关于: about.md
+  - Git: git.md
 
 theme:
   name: material
