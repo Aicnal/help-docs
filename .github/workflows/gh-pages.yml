@@ -19,20 +19,11 @@ jobs:
         with:
           python-version: 3.x
 
-      # Step 3: 配置缓存
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      # Step 4: 安装依赖
+      # Step 3: 安装依赖
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Step 5: 部署到 GitHub Pages
+      # Step 4: 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
         env:
