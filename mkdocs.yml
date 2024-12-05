@@ -10,14 +10,21 @@ repo_url: https://github.com/Aicnal/help-docs
 
 nav:
   - 主页: index.md
-  - Git: git.md
+  - 在上网前应该知道的:
+    - 提问的智慧: 在上网前应该知道的/how-to-ask.md
+  - 基本技能:
+    - Git: 基本技能/git.md
+    - Vim: 基本技能/vim.md
+  - MJJ的基本素养:
+    - OpenSSH: MJJ的基本素养/Openssh.md
+    - Fail2ban: MJJ的基本素养/Fail2ban.md
 
 theme:
   name: material
   palette:
-    scheme: default  # dark 或者 light
+    scheme: light  # dark 或者 light
     primary: indigo  # 主色调
-    accent: pink     # 辅助色
+    accent: blue     # 辅助色
   font:
     text: Roboto
     code: Roboto Mono
