@@ -18,6 +18,10 @@ nav:
   - MJJ的基本素养:
     - OpenSSH: MJJ的基本素养/Openssh.md
     - Fail2ban: MJJ的基本素养/Fail2ban.md
+  - Discourse 运维:
+    - Discourse 安装: Discourse/Install.md
+    - Discourse 插件: Discourse/plugin.md
+    - Discourse admin配置: Discourse/admin.md
 
 theme:
   name: material
