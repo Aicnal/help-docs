@@ -15,6 +15,7 @@ nav:
   - 基本技能:
     - Git: 基本技能/git.md
     - Vim: 基本技能/vim.md
+    - 配置 SSH 密钥与签名: 基本技能/配置SSH密钥与签名.md
   - MJJ的基本素养:
     - OpenSSH: MJJ的基本素养/Openssh.md
     - Fail2ban: MJJ的基本素养/Fail2ban.md
