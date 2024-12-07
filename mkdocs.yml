@@ -35,7 +35,8 @@ theme:
     code: Roboto Mono
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - minify: 
       minify_html: true
 
@@ -87,3 +88,7 @@ markdown_extensions: # markdown extensions
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+  - https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.css
